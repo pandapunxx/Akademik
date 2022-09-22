@@ -1200,7 +1200,7 @@ ol {
   font-size: 15px;
   font-weight: 500;
   padding: 15px 30px;
-  background-color: #5830E0;
+  background-color: #005783;
   color: #fff;
   border: none;
   -webkit-transition: 0.5s;
@@ -1948,10 +1948,15 @@ ol {
   margin-left: 10px;
 }
 
+.header-button .btn {
+  background: #00669A;
+}
+
 .header-button .btn i {
-  font-size: 14px;
+  font-size: 20px;
   display: inline-block;
-  margin-right: 5px;
+  margin-top: 4px;
+  /* margin-right: 1px; */
 }
 
 /*======================================
