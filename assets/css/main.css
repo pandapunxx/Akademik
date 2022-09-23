@@ -1041,7 +1041,7 @@ ol {
   bottom: -2px;
   height: 4px;
   width: 300px;
-  margin-left: -150px;
+  margin-left: -153px;
   background: #038FD6;
   border-radius: 10px;
 }
@@ -1393,7 +1393,7 @@ ol {
 }
 
 .sticky .navbar .mobile-menu-btn .toggler-icon {
-  background: #333;
+  background: #fff;
 }
 
 /* Topbar */
@@ -1537,7 +1537,7 @@ ol {
 .mobile-menu-btn .toggler-icon {
   width: 30px;
   height: 2px;
-  background-color: #222;
+  background-color: #fff;
   display: block;
   margin: 5px 0;
   position: relative;
@@ -1576,6 +1576,10 @@ ol {
     overflow-y: scroll;
     border-top: 1px solid #eee;
   }
+
+  .navbar-nav .nav-item:hover a {
+    color: #000;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1591,6 +1595,10 @@ ol {
     padding: 10px 20px;
     max-height: 350px;
     overflow-y: scroll;
+  }
+
+  .navbar-nav .nav-item:hover a {
+    color: #000;
   }
 }
 
@@ -1664,6 +1672,10 @@ ol {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .navbar-nav .nav-item a.dd-menu {
     padding-right: 30px;
+  }
+
+  .navbar-nav .nav-item .dd-menu.collapsed a.active {
+    color: #000;
   }
 }
 
@@ -1888,7 +1900,7 @@ ol {
 .navbar-nav .nav-item .sub-menu>li.active>a,
 .navbar-nav .nav-item .sub-menu>li:hover>a {
   color: #fff !important;
-  background-color: #5830E0 !important;
+  background-color: #038FD6 !important;
 }
 
 .navbar-nav .nav-item .sub-menu>li>a {
@@ -4414,7 +4426,7 @@ blockquote .shape {
 
 .why-choose .choose-content .single-list i {
   color: #038FD6;
-  font-size: 25px;
+  font-size: 30px;
   display: inline-block;
   margin-bottom: 30px;
   height: 70px;
@@ -4433,6 +4445,7 @@ blockquote .shape {
   color: #038FD6;
   background-color: transparent;
   border-color: #038FD6;
+  cursor: pointer;
 }
 
 .why-choose .choose-content .single-list h4 {
