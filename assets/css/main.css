@@ -1,14 +1,14 @@
 /*======================================
     Normalize CSS
 ========================================*/
-@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Jost", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #888;
@@ -19,7 +19,7 @@ body {
 p {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
 }
 
@@ -2298,7 +2298,7 @@ ol {
   font-size: 18px;
   color: #fff;
   font-weight: 500;
-  font-family: 'Jost',
+  font-family: 'Inter',
     sans-serif;
 }
 
@@ -2901,7 +2901,7 @@ blockquote .shape {
   margin-bottom: 20px;
   position: relative;
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .post-details .list li i {
@@ -4088,7 +4088,7 @@ blockquote .shape {
   font-weight: 500;
   padding: 7px 15px;
   border-radius: 6px;
-  font-family: 'Jost',
+  font-family: 'Inter',
     sans-serif;
 }
 
@@ -4105,7 +4105,7 @@ blockquote .shape {
   top: 15px;
   -webkit-box-shadow: 0 5px 10px rgba(35, 38, 45, 0.14) !important;
   box-shadow: 0 5px 10px rgba(35, 38, 45, 0.14) !important;
-  font-family: 'Jost',
+  font-family: 'Inter',
     sans-serif;
 }
 
@@ -4144,7 +4144,7 @@ blockquote .shape {
 .items-grid .single-grid .content .top-content .tag i {
   display: inline-block;
   margin-right: 5px;
-  color: #5830E0;
+  color: #038FD6;
 }
 
 .items-grid .single-grid .content .top-content .tag:hover {
@@ -4161,10 +4161,11 @@ blockquote .shape {
   color: #081828;
   font-size: 20px;
   font-weight: 600;
+  line-height: 150%;
 }
 
 .items-grid .single-grid .content .top-content .title a:hover {
-  color: #5830E0;
+  color: #038FD6;
 }
 
 .items-grid .single-grid .content .top-content .update-time {
@@ -4210,11 +4211,11 @@ blockquote .shape {
 }
 
 .items-grid .single-grid .content .top-content .info-list li a:hover {
-  color: #5830E0;
+  color: #038FD6;
 }
 
 .items-grid .single-grid .content .top-content .info-list li a i {
-  color: #5830E0;
+  color: #038FD6;
   display: inline-block;
   margin-right: 3px;
 }
@@ -4235,7 +4236,7 @@ blockquote .shape {
   position: relative;
   font-weight: 500;
   top: 8px;
-  font-family: 'Jost',
+  font-family: 'Inter',
     sans-serif;
 }
 
@@ -4316,7 +4317,7 @@ blockquote .shape {
   display: block;
   margin-top: 0px;
   font-size: 16px;
-  font-family: 'Jost',
+  font-family: 'Inter',
     sans-serif;
 }
 
@@ -4591,7 +4592,7 @@ blockquote .shape {
 
 .card-bodyy h4 {
   color: #fff;
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 600;
   padding-bottom: 15px;
   padding-top: 10px;
@@ -4599,7 +4600,7 @@ blockquote .shape {
 
 .card-bodyy p {
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 15px;
   padding-bottom: 10px;
 }
@@ -4612,7 +4613,7 @@ blockquote .shape {
 
 .card-bodyyy h4 {
   color: #fff;
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 600;
   padding-bottom: 15px;
   padding-top: 10px;
@@ -4620,7 +4621,7 @@ blockquote .shape {
 
 .card-bodyyy p {
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 15px;
   padding-bottom: 10px;
 }
@@ -4633,7 +4634,7 @@ blockquote .shape {
 
 .card-bodyyyy h4 {
   color: #fff;
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 600;
   padding-bottom: 15px;
   padding-top: 10px;
@@ -4641,7 +4642,7 @@ blockquote .shape {
 
 .card-bodyyyy p {
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 15px;
   padding-bottom: 10px;
 }
@@ -6621,7 +6622,7 @@ blockquote .shape {
 .footer .footer-bottom .copyright-text {
   margin-top: 15px;
   color: #e1e1e1;
-  font-family: 'Jost',
+  font-family: 'Inter',
     sans-serif;
 }
 
