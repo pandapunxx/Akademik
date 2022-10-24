@@ -11,7 +11,9 @@
     <!-- Place favicon.ico in the root directory -->
 
     <!-- Web Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
     <!-- ========================= CSS here ========================= -->
@@ -58,13 +60,26 @@
                                             aria-label="Toggle navigation">Beranda</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class=" active dd-menu collapsed" href="kemahasiswaan.html"
+                                        <a class=" dd-menu collapsed" href="kemahasiswaan.html"
                                         data-bs-toggle="collapse" data-bs-target="#submenu-1-4"
                                         aria-controls="navbarSupportedContent" aria-expanded="false"
                                         aria-label="Toggle navigation">Kemahasiswaan</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="mbkm.html" aria-label="Toggle navigation">MBKM</a>
+                                        <a class=" active dd-menu collapsed" href="mbkm.html"
+                                        data-bs-toggle="collapse" data-bs-target="#submenu-1-4"
+                                        aria-controls="navbarSupportedContent" aria-expanded="false"
+                                        aria-label="Toggle navigation">MBKM</a>
+                                        <ul class="sub-menu collapse" id="submenu-1-3">
+                                            <li class="nav-item"><a href="#">Pertukaran Mahasiswa</a></li>
+                                            <li class="nav-item"><a href="#">Studi / Proyek Independen</a></li>
+                                            <li class="nav-item"><a href="#">Kampus Mengajar</a></li>
+                                            <li class="nav-item"><a href="#">Praktisi Mengajar</a></li>
+                                            <li class="nav-item"><a href="#">Penelitian / Riset</a></li>
+                                            <li class="nav-item"><a href="#">Proyek Kemanusiaan</a></li>
+                                            <li class="nav-item"><a href="#">Wirausaha Merdeka</a></li>
+                                            <li class="nav-item"><a href="#">Membangun Desa / KKN Tematik</a></li>
+                                        </ul>
                                     </li>
                                     <li class="nav-item">
                                         <a href="pusba.html" aria-label="Toggle navigation">Pusat Bahasa</a>
@@ -73,7 +88,13 @@
                                         <a href="maba.html" aria-label="Toggle navigation">Mahasiswa Baru</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="pbm.html" aria-label="Toggle navigation">PBM</a>
+                                        <a class=" dd-menu collapsed" href="javascript:void(0)"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-1-3"
+                                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                                            aria-label="Toggle navigation">PBM</a>
+                                        <ul class="sub-menu collapse" id="submenu-1-3">
+                                            <li class="nav-item"><a href="pbm.html" style:>Informasi UTS & UAS</a></li>
+                                        </ul>
                                     </li>
                                     <li class="nav-item">
                                         <a class=" dd-menu collapsed" href="javascript:void(0)"
@@ -111,9 +132,10 @@
                 <div class="col-lg-10 offset-lg-1 col-md-12 col-12">
                     <div class="hero-text text-center">
                         <!-- Start Hero Text -->
-                        <div class="section-heading">
-                            <h1 class="wow fadeInUp" data-wow-delay=".3s" style="color: #FFBA05; text-transform: uppercase;">Kemahasiswaan</h1>
-                            <p class="wow fadeInUp" data-wow-delay=".5s">Institut Teknologi Adhi Tama Surabaya</p>
+                        <div class="section-heading1">
+                            <img src="assets/images/logo/tutwuri.png" style="width: 50px; height: 50px; float: left; top: 20%;" >
+                            <h1 class="wow fadeInUp" data-wow-delay=".3s" style="color: #fff; text-transform: uppercase; left: -33%;">MERDEKA BELAJAR <br> KAMPUS MERDEKA</h1>
+                            <p class="wow fadeInUp" data-wow-delay=".5s" style="left: -5%;">Institut Teknologi Adhi Tama Surabaya</p>
                         </div>
                         <!-- End Search Form -->
                     </div>
@@ -123,88 +145,132 @@
     </section>
     <!-- End Hero Area -->
 
-    <!-- Start Why Choose Area -->
-    <section class="why-choose1 section">
+    <!-- Start Categories Area -->
+    <section class="categories">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Informasi Beasiswa</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="choose-content">
-                        <div class="row">
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <!-- Start Single List -->
-                                <div class="single-list wow fadeInUp" data-wow-delay=".2s">
-                                    <i class="lni lni-book"></i>
-                                    <h4>Beasiswa Grab Untuk Semua</h4>
-                                    <p>Buy and sell everything from used cars to mobile phones and computer or search
-                                        for property.</p>
+            <div class="cat-inner">
+                <div class="row">
+                    <div class="col-12 p-0">
+                        <div class="category-slider">
+                            <!-- Start Single Category -->
+                            <a href="category.html" class="single-cat">
+                                <div class="icon">
+                                    <img src="assets/images/categories/book.svg" alt="#">
                                 </div>
-                                <!-- Start Single List -->
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <!-- Start Single List -->
-                                <div class="single-list wow fadeInUp" data-wow-delay=".4s">
-                                    <i class="lni lni-leaf"></i>
-                                    <h4>Pengumuman Seleksi PADUS Tingkat Nasional</h4>
-                                    <p>Buy and sell everything from used cars to mobile phones and computer or search
-                                        for property.</p>
+                                <h3>Persyaratan</h3>
+                                
+                            </a>
+                            <!-- End Single Category -->
+                            <!-- Start Single Category -->
+                            <a href="category.html" class="single-cat">
+                                <div class="icon">
+                                    <img src="assets/images/categories/people.svg" alt="#">
                                 </div>
-                                <!-- Start Single List -->
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <!-- Start Single List -->
-                                <div class="single-list wow fadeInUp" data-wow-delay=".6s">
-                                    <i class="lni lni-cog"></i>
-                                    <h4>Pendaftaran Seleksi KIP Kuliah 2022</h4>
-                                    <p>Buy and sell everything from used cars to mobile phones and computer or search
-                                        for property.</p>
+                                <h3>Daftar MOU</h3>
+                               
+                            </a>
+                            <!-- End Single Category -->
+                            <!-- Start Single Category -->
+                            <a href="category.html" class="single-cat">
+                                <div class="icon">
+                                    <img src="assets/images/categories/payment.svg" alt="#">
                                 </div>
-                                <!-- Start Single List -->
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <!-- Start Single List -->
-                                <div class="single-list wow fadeInUp" data-wow-delay=".2s">
-                                    <i class="lni lni-pointer-up"></i>
-                                    <h4>Pengumuman Seleksi UKT/SPP 2021</h4>
-                                    <p>Buy and sell everything from used cars to mobile phones and computer or search
-                                        for property.</p>
-                                </div>
-                                <!-- Start Single List -->
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <!-- Start Single List -->
-                                <div class="single-list wow fadeInUp" data-wow-delay=".4s">
-                                    <i class="lni lni-layout"></i>
-                                    <h4>Buku Pedoman Umum Program PKM</h4>
-                                    <p>Buy and sell everything from used cars to mobile phones and computer or search
-                                        for property.</p>
-                                </div>
-                                <!-- Start Single List -->
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <!-- Start Single List -->
-                                <div class="single-list wow fadeInUp" data-wow-delay=".6s">
-                                    <i class="lni lni-laptop-phone"></i>
-                                    <h4>Kegiatan GEMASTIK 2021</h4>
-                                    <p>Buy and sell everything from used cars to mobile phones and computer or search
-                                        for property.</p>
-                                </div>
-                                <!-- Start Single List -->
-                            </div>
+                                <h3>Sosialisasi MBKM</h3>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- /End Why Choose Area -->
-
+    <!-- Start Why Choose Area -->
+    <section class="items-grid section custom-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title2">
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s" style="color: #fff;">APA ITU KAMPUS<br>MERDEKA ?</h2>
+                        <h3>Program persiapan karier yang komprehensif guna
+                            mempersiapkan generasi terbaik Indonesia</h3>
+                            <p>Kampus Merdeka merupakan bagian dari kebijakan Merdeka Belajar oleh Kementerian 
+                                Pendidikan, Kebudayaan, Riset, dan Teknologi Republik Indonesia yang memberikan 
+                                kesempaatan bagi mahasiswa/i untuk mengasah kemampuan sesuai bakat dan minat 
+                                dengan terjun langsung ke dunia kerja sebagai persiapan karier masa depan.
+                            </p>
+                            <h1 class="wow fadeInUp" data-wow-delay=".4s" style="color: #fff;">Program MBKM Yang<br>Sedang Berjalan</h1>
+                    </div>
+                </div>
+                <div class="section-title1">
+                    <h1 class="h-info2">Program MBKM Yang</h1>
+                    <p class="p-mhs2">Sedang Berjalan</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="single-headd1">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- Start Single Grid -->
+                        <div class="single-grid wow fadeInUp" data-wow-delay=".2s">
+                            <div class="image">
+                                <a href="item-details.html" class="thumbnail"><img src="assets/images/items-grid/content1.jpg" alt="#"></a>
+                            </div>
+                            <div class="content">
+                                <div class="top-content">
+                                    <ul class="info-list">
+                                        <li><a href="javascript:void(0)"><i class="lni lni-timer"></i> Feb 18, 2023</a></li>
+                                    </ul>
+                                    <h3 class="title">
+                                        <a href="item-details.html">Tingkatkan Kualitas Akademik, ITATS Resmikan Perpustakaan Baru</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Grid -->
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- Start Single Grid -->
+                        <div class="single-grid wow fadeInUp" data-wow-delay=".4s">
+                            <div class="image">
+                                <a href="item-details.html" class="thumbnail"><img src="assets/images/items-grid/content2.jpg" alt="#"></a>
+                            </div>
+                            <div class="content">
+                                <div class="top-content">
+                                    <ul class="info-list">
+                                        <li><a href="javascript:void(0)"><i class="lni lni-timer"></i> Jan 7, 2023</a></li>
+                                    </ul>
+                                    <h3 class="title">
+                                        <a href="item-details.html">Mahasiswa Teknik Informatika Sumbang Medali Emas Terompah Panjang – Festival Olahraga Rekreasi Nasional Di Palembang 2022</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Grid -->
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- Start Single Grid -->
+                        <div class="single-grid wow fadeInUp" data-wow-delay=".6s">
+                            <div class="image">
+                                <a href="item-details.html" class="thumbnail"><img src="assets/images/items-grid/content3.jpg" alt="#"></a>
+                            </div>
+                            <div class="content">
+                                <div class="top-content">
+                                    <ul class="info-list">
+                                        <li><a href="javascript:void(0)"><i class="lni lni-timer"></i> Mar 18, 2023</a></li>
+                                    </ul>
+                                    <h3 class="title">
+                                        <a href="item-details.html">Mahasiswa TEKNIK SIPIL ITATS Raih Juara 1 Civil Competition Univet 2022</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Grid -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <!-- Start Footer Area -->
     <footer class="footer">
         <!-- Start Footer Top -->
