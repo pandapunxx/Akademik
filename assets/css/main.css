@@ -3646,7 +3646,7 @@ blockquote .shape {
   height: 0;
 }
 
-.categories .tns-controls button {
+/* .categories .tns-controls button {
   width: 46px;
   height: 46px;
   cursor: pointer;
@@ -3688,14 +3688,14 @@ blockquote .shape {
 
 .categories .tns-controls button:last-child {
   right: -23px;
-}
+} */
 
 .categories .cat-inner {
-  padding: 30px 30px;
+  padding: 20px 20px;
   border: 1px solid #eee;
   border-radius: 6px;
   position: relative;
-  z-index: 9;
+  z-index: 10;
   background: #fff;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -4104,7 +4104,7 @@ blockquote .shape {
 
 .items-grid.custom-padding {
   padding-top: 220px;
-  background: #0B3275;
+  background: #f9f9f9;
 }
 
 .items-grid .section-title {
@@ -4765,6 +4765,7 @@ blockquote .shape {
   color: #038fd6;
   font-size: 32px;
   text-align: center;
+  padding-top: 10px;
 }
 
 /*======================================
